@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF495606281B44DA009EC9AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF495605281B44DA009EC9AA /* AppDelegate.swift */; };
+		FF495608281B44DA009EC9AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF495607281B44DA009EC9AA /* ViewController.swift */; };
+		FF49560B281B44DA009EC9AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF495609281B44DA009EC9AA /* Main.storyboard */; };
+		FF49560D281B44DA009EC9AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF49560C281B44DA009EC9AA /* Assets.xcassets */; };
+		FF495610281B44DA009EC9AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF49560E281B44DA009EC9AA /* LaunchScreen.storyboard */; };
+		FF49561B281B44DA009EC9AA /* AnimeReviewAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF49561A281B44DA009EC9AA /* AnimeReviewAppTests.swift */; };
+		FF495626281B44DA009EC9AA /* AnimeReviewAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF495625281B44DA009EC9AA /* AnimeReviewAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF495617281B44DA009EC9AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF4955FA281B44DA009EC9AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF495601281B44DA009EC9AA;
+			remoteInfo = AnimeReviewApp;
+		};
+		FF495622281B44DA009EC9AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF4955FA281B44DA009EC9AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF495601281B44DA009EC9AA;
+			remoteInfo = AnimeReviewApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF495602281B44DA009EC9AA /* AnimeReviewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimeReviewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF495605281B44DA009EC9AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF495607281B44DA009EC9AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF49560A281B44DA009EC9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF49560C281B44DA009EC9AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF49560F281B44DA009EC9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF495611281B44DA009EC9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF495616281B44DA009EC9AA /* AnimeReviewAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimeReviewAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF49561A281B44DA009EC9AA /* AnimeReviewAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeReviewAppTests.swift; sourceTree = "<group>"; };
+		FF49561C281B44DA009EC9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF495621281B44DA009EC9AA /* AnimeReviewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimeReviewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF495625281B44DA009EC9AA /* AnimeReviewAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeReviewAppUITests.swift; sourceTree = "<group>"; };
+		FF495627281B44DA009EC9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF4955FF281B44DA009EC9AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF495613281B44DA009EC9AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF49561E281B44DA009EC9AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF4955F9281B44DA009EC9AA = {
+			isa = PBXGroup;
+			children = (
+				FF495604281B44DA009EC9AA /* AnimeReviewApp */,
+				FF495619281B44DA009EC9AA /* AnimeReviewAppTests */,
+				FF495624281B44DA009EC9AA /* AnimeReviewAppUITests */,
+				FF495603281B44DA009EC9AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF495603281B44DA009EC9AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF495602281B44DA009EC9AA /* AnimeReviewApp.app */,
+				FF495616281B44DA009EC9AA /* AnimeReviewAppTests.xctest */,
+				FF495621281B44DA009EC9AA /* AnimeReviewAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF495604281B44DA009EC9AA /* AnimeReviewApp */ = {
+			isa = PBXGroup;
+			children = (
+				FF495605281B44DA009EC9AA /* AppDelegate.swift */,
+				FF495607281B44DA009EC9AA /* ViewController.swift */,
+				FF495609281B44DA009EC9AA /* Main.storyboard */,
+				FF49560C281B44DA009EC9AA /* Assets.xcassets */,
+				FF49560E281B44DA009EC9AA /* LaunchScreen.storyboard */,
+				FF495611281B44DA009EC9AA /* Info.plist */,
+			);
+			path = AnimeReviewApp;
+			sourceTree = "<group>";
+		};
+		FF495619281B44DA009EC9AA /* AnimeReviewAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF49561A281B44DA009EC9AA /* AnimeReviewAppTests.swift */,
+				FF49561C281B44DA009EC9AA /* Info.plist */,
+			);
+			path = AnimeReviewAppTests;
+			sourceTree = "<group>";
+		};
+		FF495624281B44DA009EC9AA /* AnimeReviewAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF495625281B44DA009EC9AA /* AnimeReviewAppUITests.swift */,
+				FF495627281B44DA009EC9AA /* Info.plist */,
+			);
+			path = AnimeReviewAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF495601281B44DA009EC9AA /* AnimeReviewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF49562A281B44DA009EC9AA /* Build configuration list for PBXNativeTarget "AnimeReviewApp" */;
+			buildPhases = (
+				FF4955FE281B44DA009EC9AA /* Sources */,
+				FF4955FF281B44DA009EC9AA /* Frameworks */,
+				FF495600281B44DA009EC9AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimeReviewApp;
+			productName = AnimeReviewApp;
+			productReference = FF495602281B44DA009EC9AA /* AnimeReviewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF495615281B44DA009EC9AA /* AnimeReviewAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF49562D281B44DA009EC9AA /* Build configuration list for PBXNativeTarget "AnimeReviewAppTests" */;
+			buildPhases = (
+				FF495612281B44DA009EC9AA /* Sources */,
+				FF495613281B44DA009EC9AA /* Frameworks */,
+				FF495614281B44DA009EC9AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF495618281B44DA009EC9AA /* PBXTargetDependency */,
+			);
+			name = AnimeReviewAppTests;
+			productName = AnimeReviewAppTests;
+			productReference = FF495616281B44DA009EC9AA /* AnimeReviewAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF495620281B44DA009EC9AA /* AnimeReviewAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF495630281B44DA009EC9AA /* Build configuration list for PBXNativeTarget "AnimeReviewAppUITests" */;
+			buildPhases = (
+				FF49561D281B44DA009EC9AA /* Sources */,
+				FF49561E281B44DA009EC9AA /* Frameworks */,
+				FF49561F281B44DA009EC9AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF495623281B44DA009EC9AA /* PBXTargetDependency */,
+			);
+			name = AnimeReviewAppUITests;
+			productName = AnimeReviewAppUITests;
+			productReference = FF495621281B44DA009EC9AA /* AnimeReviewAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF4955FA281B44DA009EC9AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Chawan Saeed";
+				TargetAttributes = {
+					FF495601281B44DA009EC9AA = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					FF495615281B44DA009EC9AA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = FF495601281B44DA009EC9AA;
+					};
+					FF495620281B44DA009EC9AA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = FF495601281B44DA009EC9AA;
+					};
+				};
+			};
+			buildConfigurationList = FF4955FD281B44DA009EC9AA /* Build configuration list for PBXProject "AnimeReviewApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF4955F9281B44DA009EC9AA;
+			productRefGroup = FF495603281B44DA009EC9AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF495601281B44DA009EC9AA /* AnimeReviewApp */,
+				FF495615281B44DA009EC9AA /* AnimeReviewAppTests */,
+				FF495620281B44DA009EC9AA /* AnimeReviewAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF495600281B44DA009EC9AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF495610281B44DA009EC9AA /* LaunchScreen.storyboard in Resources */,
+				FF49560D281B44DA009EC9AA /* Assets.xcassets in Resources */,
+				FF49560B281B44DA009EC9AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF495614281B44DA009EC9AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF49561F281B44DA009EC9AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF4955FE281B44DA009EC9AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF495608281B44DA009EC9AA /* ViewController.swift in Sources */,
+				FF495606281B44DA009EC9AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF495612281B44DA009EC9AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF49561B281B44DA009EC9AA /* AnimeReviewAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF49561D281B44DA009EC9AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF495626281B44DA009EC9AA /* AnimeReviewAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF495618281B44DA009EC9AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF495601281B44DA009EC9AA /* AnimeReviewApp */;
+			targetProxy = FF495617281B44DA009EC9AA /* PBXContainerItemProxy */;
+		};
+		FF495623281B44DA009EC9AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF495601281B44DA009EC9AA /* AnimeReviewApp */;
+			targetProxy = FF495622281B44DA009EC9AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF495609281B44DA009EC9AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF49560A281B44DA009EC9AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF49560E281B44DA009EC9AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF49560F281B44DA009EC9AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF495628281B44DA009EC9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF495629281B44DA009EC9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF49562B281B44DA009EC9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnimeReviewApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chawan.saeed.AnimeReviewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF49562C281B44DA009EC9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnimeReviewApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chawan.saeed.AnimeReviewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF49562E281B44DA009EC9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AnimeReviewAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chawan.saeed.AnimeReviewAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimeReviewApp.app/AnimeReviewApp";
+			};
+			name = Debug;
+		};
+		FF49562F281B44DA009EC9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AnimeReviewAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chawan.saeed.AnimeReviewAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimeReviewApp.app/AnimeReviewApp";
+			};
+			name = Release;
+		};
+		FF495631281B44DA009EC9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AnimeReviewAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chawan.saeed.AnimeReviewAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AnimeReviewApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FF495632281B44DA009EC9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AnimeReviewAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chawan.saeed.AnimeReviewAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AnimeReviewApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF4955FD281B44DA009EC9AA /* Build configuration list for PBXProject "AnimeReviewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF495628281B44DA009EC9AA /* Debug */,
+				FF495629281B44DA009EC9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF49562A281B44DA009EC9AA /* Build configuration list for PBXNativeTarget "AnimeReviewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF49562B281B44DA009EC9AA /* Debug */,
+				FF49562C281B44DA009EC9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF49562D281B44DA009EC9AA /* Build configuration list for PBXNativeTarget "AnimeReviewAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF49562E281B44DA009EC9AA /* Debug */,
+				FF49562F281B44DA009EC9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF495630281B44DA009EC9AA /* Build configuration list for PBXNativeTarget "AnimeReviewAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF495631281B44DA009EC9AA /* Debug */,
+				FF495632281B44DA009EC9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF4955FA281B44DA009EC9AA /* Project object */;
+}
