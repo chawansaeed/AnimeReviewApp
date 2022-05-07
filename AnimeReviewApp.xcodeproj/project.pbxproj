@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF437BA1281C170000AFD6D7 /* MoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF437BA0281C170000AFD6D7 /* MoreInfoViewController.swift */; };
+		FF437BA2281C170000AFD6D7 /* MoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF437BA0281C170000AFD6D7 /* MoreInfoViewController.swift */; };
+		FF437BA3281C170000AFD6D7 /* MoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF437BA0281C170000AFD6D7 /* MoreInfoViewController.swift */; };
+		FF437BA5281C171F00AFD6D7 /* AnimesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF437BA4281C171F00AFD6D7 /* AnimesViewController.swift */; };
+		FF437BA6281C171F00AFD6D7 /* AnimesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF437BA4281C171F00AFD6D7 /* AnimesViewController.swift */; };
+		FF437BA7281C171F00AFD6D7 /* AnimesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF437BA4281C171F00AFD6D7 /* AnimesViewController.swift */; };
 		FF495606281B44DA009EC9AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF495605281B44DA009EC9AA /* AppDelegate.swift */; };
-		FF495608281B44DA009EC9AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF495607281B44DA009EC9AA /* ViewController.swift */; };
 		FF49560B281B44DA009EC9AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF495609281B44DA009EC9AA /* Main.storyboard */; };
 		FF49560D281B44DA009EC9AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF49560C281B44DA009EC9AA /* Assets.xcassets */; };
 		FF495610281B44DA009EC9AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF49560E281B44DA009EC9AA /* LaunchScreen.storyboard */; };
 		FF49561B281B44DA009EC9AA /* AnimeReviewAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF49561A281B44DA009EC9AA /* AnimeReviewAppTests.swift */; };
 		FF495626281B44DA009EC9AA /* AnimeReviewAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF495625281B44DA009EC9AA /* AnimeReviewAppUITests.swift */; };
+		FF9A9F16281C654000BC2D23 /* JsonFile.json in Resources */ = {isa = PBXBuildFile; fileRef = FF9A9F15281C654000BC2D23 /* JsonFile.json */; };
+		FFB31740281D59F800E1B072 /* Informations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB3173F281D59F800E1B072 /* Informations.swift */; };
+		FFB31741281D59F800E1B072 /* Informations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB3173F281D59F800E1B072 /* Informations.swift */; };
+		FFB31742281D59F800E1B072 /* Informations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB3173F281D59F800E1B072 /* Informations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF437BA0281C170000AFD6D7 /* MoreInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreInfoViewController.swift; sourceTree = "<group>"; };
+		FF437BA4281C171F00AFD6D7 /* AnimesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimesViewController.swift; path = ../AnimesViewController.swift; sourceTree = "<group>"; };
 		FF495602281B44DA009EC9AA /* AnimeReviewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimeReviewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF495605281B44DA009EC9AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF495607281B44DA009EC9AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF49560A281B44DA009EC9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF49560C281B44DA009EC9AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF49560F281B44DA009EC9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		FF495621281B44DA009EC9AA /* AnimeReviewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimeReviewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF495625281B44DA009EC9AA /* AnimeReviewAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeReviewAppUITests.swift; sourceTree = "<group>"; };
 		FF495627281B44DA009EC9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9A9F15281C654000BC2D23 /* JsonFile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = JsonFile.json; path = AnimeReviewApp/JsonFile.json; sourceTree = "<group>"; };
+		FFB3173F281D59F800E1B072 /* Informations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Informations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,7 @@
 		FF4955F9281B44DA009EC9AA = {
 			isa = PBXGroup;
 			children = (
+				FF9A9F15281C654000BC2D23 /* JsonFile.json */,
 				FF495604281B44DA009EC9AA /* AnimeReviewApp */,
 				FF495619281B44DA009EC9AA /* AnimeReviewAppTests */,
 				FF495624281B44DA009EC9AA /* AnimeReviewAppUITests */,
@@ -98,8 +111,10 @@
 			isa = PBXGroup;
 			children = (
 				FF495605281B44DA009EC9AA /* AppDelegate.swift */,
-				FF495607281B44DA009EC9AA /* ViewController.swift */,
 				FF495609281B44DA009EC9AA /* Main.storyboard */,
+				FF437BA4281C171F00AFD6D7 /* AnimesViewController.swift */,
+				FF437BA0281C170000AFD6D7 /* MoreInfoViewController.swift */,
+				FFB3173F281D59F800E1B072 /* Informations.swift */,
 				FF49560C281B44DA009EC9AA /* Assets.xcassets */,
 				FF49560E281B44DA009EC9AA /* LaunchScreen.storyboard */,
 				FF495611281B44DA009EC9AA /* Info.plist */,
@@ -232,6 +247,7 @@
 				FF495610281B44DA009EC9AA /* LaunchScreen.storyboard in Resources */,
 				FF49560D281B44DA009EC9AA /* Assets.xcassets in Resources */,
 				FF49560B281B44DA009EC9AA /* Main.storyboard in Resources */,
+				FF9A9F16281C654000BC2D23 /* JsonFile.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF495608281B44DA009EC9AA /* ViewController.swift in Sources */,
+				FF437BA5281C171F00AFD6D7 /* AnimesViewController.swift in Sources */,
+				FF437BA1281C170000AFD6D7 /* MoreInfoViewController.swift in Sources */,
+				FFB31740281D59F800E1B072 /* Informations.swift in Sources */,
 				FF495606281B44DA009EC9AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF437BA6281C171F00AFD6D7 /* AnimesViewController.swift in Sources */,
 				FF49561B281B44DA009EC9AA /* AnimeReviewAppTests.swift in Sources */,
+				FFB31741281D59F800E1B072 /* Informations.swift in Sources */,
+				FF437BA2281C170000AFD6D7 /* MoreInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +294,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF437BA7281C171F00AFD6D7 /* AnimesViewController.swift in Sources */,
 				FF495626281B44DA009EC9AA /* AnimeReviewAppUITests.swift in Sources */,
+				FFB31742281D59F800E1B072 /* Informations.swift in Sources */,
+				FF437BA3281C170000AFD6D7 /* MoreInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +508,7 @@
 				FF49562C281B44DA009EC9AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF49562D281B44DA009EC9AA /* Build configuration list for PBXNativeTarget "AnimeReviewAppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +517,7 @@
 				FF49562F281B44DA009EC9AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF495630281B44DA009EC9AA /* Build configuration list for PBXNativeTarget "AnimeReviewAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +526,7 @@
 				FF495632281B44DA009EC9AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
